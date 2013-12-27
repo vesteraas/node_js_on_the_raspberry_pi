@@ -6,11 +6,11 @@ Example:
 
 `http://nodejs.org/dist/v0.10.9/node-v0.10.9-linux-arm-pi.tar.gz`
 
-On your Raspberry Pi, open a terminal window (Or connect to it via SSH)
+On your Raspberry Pi, open a terminal window (Or log in using **ssh pi@<RASPBERRY-PI-ADDRESS**)
 
 Download the Node.js distribution:
 
-    wget http://nodejs.org/dist/v0.10.9/node-v0.10.9-linux-arm-pi.tar.gz
+	wget http://nodejs.org/dist/v0.10.9/node-v0.10.9-linux-arm-pi.tar.gz
  
 Expand the archive:
 
@@ -26,11 +26,17 @@ Create a symlink:
 	
 Append the following lines to the file .bash_profile in your home directory:
 
-    #!/bin/bash
-    NODE_HOME=/opt/node
-    PATH=$PATH:$NODE_HOME/bin
+	#!/bin/bash
+	NODE_HOME=/opt/node
+	PATH=$PATH:$NODE_HOME/bin
     
 Re-login to your Raspberry Pi, and test that everything works by typing:
 
     node --version
     
+==Switching between versions==
+
+Switching between different versions of Node.js is easy.  Just follow the instructions above, and update the symlink **/opt/node** accordingly:
+
+	sudo rm /opt/node
+	sudo ln -s /opt/node_vX.YY.Z-linux-arm-pi /opt/node
