@@ -34,7 +34,8 @@ Re-login to your Raspberry Pi, and test that everything works by typing:
 
     node --version
     
-==Switching between versions==
+Switching between versions
+--------------------------
 
 Switching between different versions of Node.js is easy.  Just follow the instructions above, and update the symlink **/opt/node** accordingly:
 
