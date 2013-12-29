@@ -46,4 +46,4 @@ Donate
 ------
 Did you find this little guide useful?  Consider donating a few satoshis to:
 
-## 1GqWwzqwWAaQLobKutBK7e3dYLbxA8S6Hc ##
+### 1GqWwzqwWAaQLobKutBK7e3dYLbxA8S6Hc ###
