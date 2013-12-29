@@ -5,7 +5,9 @@ Example:
 
 `http://nodejs.org/dist/v0.10.9/node-v0.10.9-linux-arm-pi.tar.gz`
 
-On your Raspberry Pi, open a terminal window (Or log in using **ssh pi@<RASPBERRY-PI-ADDRESS>**)
+Log in to your Raspberry Pi:
+	
+	ssh pi@<RASPBERRY-PI-ADDRESS>
 
 Download the Node.js distribution:
 
