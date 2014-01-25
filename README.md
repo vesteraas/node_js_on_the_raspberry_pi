@@ -31,8 +31,6 @@ Create symlinks for the node binaries and library:
 	sudo ln -s /opt/node/bin/npm /usr/bin/npm
 	sudo ln -s /opt/node/lib/node /usr/lib/node
 	
-If you can't find such a file, create it.
-
 Re-login to your Raspberry Pi, and test that everything works by typing:
 
     node --version
