@@ -25,11 +25,11 @@ Create a symlink:
 
 	sudo ln -s /opt/node-v0.10.9-linux-arm-pi /opt/node
 	
-With your text editor of choice, append the following lines to the file .bash_profile in your home directory:
+Create symlinks for the node binaries and library:
 
-	#!/bin/bash
-	NODE_HOME=/opt/node
-	PATH=$PATH:$NODE_HOME/bin
+	sudo ln -s /opt/node/bin/node /usr/bin/node
+	sudo ln -s /opt/node/bin/npm /usr/bin/npm
+	sudo ln -s /opt/node/lib/node /usr/lib/node
 	
 If you can't find such a file, create it.
 
