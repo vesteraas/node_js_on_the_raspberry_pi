@@ -27,9 +27,9 @@ Create a symlink:
 	
 Create symlinks for the node binaries and library:
 
-	sudo ln -s /opt/node/bin/node /usr/bin/node
-	sudo ln -s /opt/node/bin/npm /usr/bin/npm
-	sudo ln -s /opt/node/lib/node /usr/lib/node
+	sudo ln -s /opt/node/bin/node /usr/local/bin/node
+	sudo ln -s /opt/node/bin/npm /usr/local/bin/npm
+	sudo ln -s /opt/node/lib/node /usr/local/lib/node
 	
 Re-login to your Raspberry Pi, and test that everything works by typing:
 
